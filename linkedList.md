@@ -135,7 +135,7 @@ cities.show();
 //约瑟夫环
 let suicides = new LList();
 for (let i = 0, len = 30; i < len; i++) {
-    if (i === 0) {
+    if (!i) {
         suicides.insert(i + 1, 'head');
     } else {
         suicides.insert(i + 1, i);
